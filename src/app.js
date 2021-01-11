@@ -87,6 +87,6 @@ app.get('*', (req, res) => {
     });
 });
 
-app.listen(port, 'localhost', () => {
+app.listen(port, () => {
     console.log(`server is up on port ${port}`);
 });
